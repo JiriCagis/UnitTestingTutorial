@@ -43,3 +43,12 @@
    <li>Simplify init isPrime with use build method Array.fill(). </li>
 </ol>
 <h3>Music library</h3>
+<div>
+Last part of project contain mapping database tables into object in programming language. For access to table
+was used design pattern DAO (Data access object) that each class represent one table and classes methods 
+oparation on table.
+</div>
+
+<div>
+<b> Assumptions </b>
+</div>
