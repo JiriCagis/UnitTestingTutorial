@@ -46,7 +46,7 @@
 <div>
 Last part of project contain mapping database tables into object in programming language. For access to table
 was used design pattern DAO (Data access object) that each class represent one table and classes methods 
-oparation on table.
+oparations on table.
 </div>
 <br>
 <b>Requiremens</b>
@@ -59,7 +59,12 @@ oparation on table.
 <a href="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/src/main/resources/database.properties"> database.properties</a></li>
 </ol>
 <div>
+<b> Example tests: </b>
 The tests are divided to three parts, first group creates tests for get connection string and verify connection to database.
-Second part contains tests verify base operation on each table as insert, update and delete record. Last serie tests is aim on test relationship between tables.
+Second part contains tests verify individual tables in isolation as insert, update and delete record. Last serie tests is aim on test relationship between tables.
+
+<ul>
+<li>Connection to the databse</li>
+</ul>
 </div>
 
