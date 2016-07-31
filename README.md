@@ -53,4 +53,5 @@ oparation on table.
 <ol>
 <li> Installed database. I used in project H2 base, but it shoul be work with others as Oracle, mySQL or PostgreSQL.
 <a href="http://www.h2database.com/html/installation.html"> How to install H2 base</a></li>
+<li> Loaded table schema place in <b>/src/main/resources/initDatabase.sql</b></li>
 </ol>
