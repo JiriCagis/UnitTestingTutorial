@@ -58,9 +58,8 @@ oparation on table.
 <li> Verifed right login credentials in file 
 <a href="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/src/main/resources/database.properties"> database.properties</a></li>
 </ol>
-<br>
 <div>
-The tests are divided to three parts, first group creates test for get connection string and verify connection to database.
+The tests are divided to three parts, first group creates tests for get connection string and verify connection to database.
 Second part contains tests verify base operation on each table as insert, update and delete record. Last serie tests is aim on test relationship between tables.
 </div>
 
