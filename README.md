@@ -48,7 +48,9 @@ Last part of project contain mapping database tables into object in programming 
 was used design pattern DAO (Data access object) that each class represent one table and classes methods 
 oparation on table.
 </div>
-
-<div>
-<b> Assumptions </b>
-</div>
+<br>
+<b>Requiremens</b>
+<ol>
+<li> Installed database. I used in project H2 base, but it shoul be work with others as Oracle, mySQL or Postgre.
+(http://www.h2database.com/html/installation.html) </li>
+</ol>
