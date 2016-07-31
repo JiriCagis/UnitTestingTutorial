@@ -49,6 +49,11 @@ was used design pattern DAO (Data access object) that each class represent one t
 oparations on table. In DAO is used new approach by Stream API published in Java 8, bacause Stream can use
 advantage multi-core processors.
 </div>
+
+<p align='center'>
+<img src="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/databaseSchema.png"/>
+</p>
+
 <br>
 <b>Requiremens</b>
 <ol>
