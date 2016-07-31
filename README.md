@@ -17,6 +17,7 @@ remove it and <b>isEmpty()</b> verify whether stack contain any items.
 <li>Push a single object, Pop the object and verify that isEmpty is true</li>
 <li>Pop a Stack that has no elements</li>
 <li>Push a single object, remembering what they are: Pop each one, and verify that they are removed in the correct order.</li>
+</ul>
 
 <h3>Prime numbers</h3>
 Second part of project is focus on refactoring code mathematic library contains method generate primes.
