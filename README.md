@@ -62,7 +62,7 @@ oparations on table.
 <b> Example tests: </b> <br>
 The tests are divided to three parts, first group creates tests for get connection string and verify connection to database.
 Second part contains tests verify individual tables in isolation as insert, update and delete record. Last serie tests is aim on test relationship between tables.
-<br>
+<br><br>
 <ul>
 <li>Connection to the database</li>
 <li>Individual tables in isolation (Recording, Label, Review, Reviewer, Track, Artist, and Genre) </li>
