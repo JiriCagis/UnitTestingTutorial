@@ -46,7 +46,8 @@
 <div>
 Last part of project contain mapping database tables into object in programming language. For access to table
 was used design pattern DAO (Data access object) that each class represent one table and classes methods 
-oparations on table.
+oparations on table. In DAO is used new approach by Stream API published in Java 8, bacause Stream can use
+advantage multi-core processors.
 </div>
 <br>
 <b>Requiremens</b>
