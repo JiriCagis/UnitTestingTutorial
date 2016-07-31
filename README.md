@@ -59,12 +59,14 @@ oparations on table.
 <a href="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/src/main/resources/database.properties"> database.properties</a></li>
 </ol>
 <div>
-<b> Example tests: </b>
+<b> Example tests: </b> <br>
 The tests are divided to three parts, first group creates tests for get connection string and verify connection to database.
 Second part contains tests verify individual tables in isolation as insert, update and delete record. Last serie tests is aim on test relationship between tables.
-
+<br>
 <ul>
-<li>Connection to the databse</li>
+<li>Connection to the database</li>
+<li>Individual tables in isolation (Recording, Label, Review, Reviewer, Track, Artist, and Genre) </li>
+<li>Choose relationship between tables (Recording-Reviews, Recording-Tracks, Review-Reviewer, Track-Artist, Track-Genre)
 </ul>
 </div>
 
