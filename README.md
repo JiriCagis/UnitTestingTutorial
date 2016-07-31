@@ -51,6 +51,6 @@ oparation on table.
 <br>
 <b>Requiremens</b>
 <ol>
-<li> Installed database. I used in project H2 base, but it shoul be work with others as Oracle, mySQL or Postgre.
-(http://www.h2database.com/html/installation.html) </li>
+<li> Installed database. I used in project H2 base, but it shoul be work with others as Oracle, mySQL or PostgreSQL.
+<a href="http://www.h2database.com/html/installation.html)"> How to install H2 base</a>
 </ol>
