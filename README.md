@@ -49,6 +49,12 @@ was used design pattern DAO (Data access object) that each class represent one t
 oparations on table. In DAO is used new approach by Stream API published in Java 8, bacause Stream can use
 advantage multi-core processors.
 </div>
+
+
+<p align='center'>
+<img src="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/databaseSchema.png" width="90%"/>
+</p>
+
 <br>
 <b>Requiremens</b>
 <ol>
@@ -60,11 +66,6 @@ advantage multi-core processors.
 <a href="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/src/main/resources/database.properties"> database.properties</a></li>
 </ol>
 <div>
-
-<p align='center'>
-<img src="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/databaseSchema.png" width="70%"/>
-</p>
-
 <b> Example tests: </b> <br>
 The tests are divided to three parts, first group creates tests for get connection string and verify connection to database.
 Second part contains tests verify individual tables in isolation as insert, update and delete record. Last serie tests is aim on test relationship between tables.
