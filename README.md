@@ -13,6 +13,7 @@ Dynamic data structure for save data. Structure has rule that last inserted item
 <b>push()</b> put item on top, <b>pop()</b> get item from top and remove it, <b>top()</b> get item on top without 
 remove it and <b>isEmpty()</b> verify whether stack contain any items.
 </div>
+<br>
 <b>Example tests:</b>
 <ul>
 <li>Create a Stack and verify that isEmpty is true</li>
@@ -29,6 +30,8 @@ For generate primes is use algorithm Sieve of Eratothemes. To better understandi
 are numbers divisible only number one and itself, but number must be greater than number one. Change code was need,
 because into library was add method for get primes return instead array numbers list numbers and previous method is now deprecated. Moreover code algorithm was write in procedual style and illegibly.
 </div>
+<br>
+<b>Refactoring</b>
 <ol>
 <li>Hide method generateArray() set permission private.</li>
 <li>Copy code from generateArray to method generate and remove method generateArray.</li>
