@@ -55,5 +55,6 @@ oparation on table.
 <a href="http://www.h2database.com/html/installation.html"> How to install H2 base</a></li>
 <li> Loaded table schema to database, it place in file
 <a href="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/src/main/resources/initDatabase.sql"> initDatabase.sql </a></li>
-<li> Verifed right login credentials in file <b>"/src/main/resources/database.properties"</b>.</li>
+<li> Verifed right login credentials in file 
+<a href="https://github.com/JiriCagis/UnitTestingTutorial/blob/master/src/main/resources/database.properties"> database.properties</a></li>
 </ol>
