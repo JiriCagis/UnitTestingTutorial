@@ -1,15 +1,12 @@
 <h1>Unit testing tutorial</h1>
 <div>
-   Goal this project is show usage unit testing on base data structure Stack, generator primes numbers by Sieve algorithm
-   and mapping object from/to database. Unit tests are decide for verify part of source code. In our case are it methods 
-   class. Unit tests are worth tool programmers when you find errors or change existing code. Right wrote unit tests
-   save more time in later period, after program contains thousands lines. Next advance of unit testing is automatic run it.
-   All tests in this tutorial are wrote in programming language Java with tool JUnit 4.0.
+Goal this project is show usage unit tests on a base data structure Stack, a generator primes numbers by Sieve algorithm
+and a mapping object from/to database. Unit tests are decide for verify part of source code. In our case we use unit tests for verify methods in classes. Unit tests are a worth tool programmers when they found errors or changed existing code. Right wrote unit tests save more time in later period, after program contains thousands lines. Next advance of unit testing is automatic run it. All tests in this tutorial are wrote in programming language Java with tool JUnit 4.0.
 </div>
 <h3>Stack</h3>
 <div>
-   Dynamic data structure for save data. Structure has rule that last inserted item is take away as first. Main functions are
-   <b>push()</b> put item on top, <b>pop()</b> get item from top and remove it, <b>top()</b> get item on top without 
+   Stack is used as a dynamic data structure for save data. Structure has a rule that item inserted last is take away as first. Main functions are
+   <b>push()</b> put the item on top, <b>pop()</b> get the item from top and remove it, <b>top()</b> get the item on top without 
    remove it and <b>isEmpty()</b> verify whether stack contain any items.
 </div>
 <br>
@@ -23,15 +20,15 @@
 </ul>
 <h3>Prime numbers</h3>
 <div>
-   Second part of project is focus on refactoring code mathematic library contains method generate primes.
-   For generate primes is use algorithm Sieve of Eratothemes. To better understanding how work algorithm. Primes
-   are numbers divisible only number one and itself, but number must be greater than number one. Change code was need,
-   because into library was add method for get primes return instead array numbers list numbers and previous method is now deprecated. Moreover code algorithm was write in procedual style and illegibly.
+   Second part of project is focuses on refactoring code mathematic library contains a method generate primes.
+   For generate primes is use the algorithm Sieve of Eratothemes. To better understanding how work algorithm. Primes
+   are numbers divisible only number one and itself, but a number must be greater than the number one. Change code was need,
+   because into library was add method for get primes return instead array numbers list numbers and previous method is now deprecated. Moreover code the algorithm was write in procedual style and illegibly.
 </div>
 <br>
 <b>Refactoring</b>
 <ol>
-   <li>Hide method generateArray() set permission private.</li>
+   <li>Hide method a generateArray() set permission private.</li>
    <li>Copy code from generateArray to method generate and remove method generateArray.</li>
    <li>Rename variable (f --> isPrime).</li>
    <li>Collapse loops for place result to list.</li>
@@ -44,7 +41,7 @@
 </ol>
 <h3>Music library</h3>
 <div>
-Last part of project contain mapping database tables into object in programming language. For access to table
+Last part of project contains mapping database tables into object in programming language. For access to table
 was used design pattern DAO (Data access object) that each class represent one table and classes methods 
 oparations on table. In DAO is used new approach by Stream API published in Java 8, bacause Stream can use
 advantage multi-core processors.
@@ -67,8 +64,8 @@ advantage multi-core processors.
 </ol>
 <div>
 <b> Example tests: </b> <br>
-The tests are divided to three parts, first group creates tests for get connection string and verify connection to database.
-Second part contains tests verify individual tables in isolation as insert, update and delete record. Last serie tests is aim on test relationship between tables.
+The tests are divided to three parts, first group creates tests for get a connection string and verify the connection to database.
+Second part contains tests verify individual tables in isolation as insert, update and delete record. Last serie tests is aim on test relationships between tables.
 <br><br>
 <ul>
 <li>Connection to the database</li>
