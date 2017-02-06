@@ -41,9 +41,9 @@ and a mapping object from/to database. Unit tests are decide for verify part of 
 </ol>
 <h3>Music library</h3>
 <div>
-Last part of project contains mapping database tables into object in programming language. For access to table
-was used design pattern DAO (Data access object) that each class represent one table and classes methods 
-oparations on table. In DAO is used new approach by Stream API published in Java 8, bacause Stream can use
+Last part of project contains mapping database tables into object in programming language. For access to tables
+was used a design pattern DAO (Data access object) that each class represent one table and classes methods 
+oparations on table. In the DAO is used new approach by Stream API published in Java 8, bacause Stream can use
 advantage multi-core processors.
 </div>
 
